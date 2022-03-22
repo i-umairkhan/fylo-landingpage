@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 90vh 100vh 30vh 40vh;
+}
+
+/* Nav Bar Styling */
+nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+.logo{
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+}
+.links{
+    margin-left: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.links > li{
+    list-style: none;
+    cursor: pointer;
+}
