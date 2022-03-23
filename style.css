@@ -9,7 +9,7 @@ body{
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 90vh 100vh 30vh 40vh;
+    grid-template-rows: 10vh 90vh 10vh 100vh 30vh 40vh;
 }
 
 /* Nav Bar Styling */
@@ -34,3 +34,128 @@ nav{
     list-style: none;
     cursor: pointer;
 }
+/* Section 1 styling */
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.headline{
+    width: 550px;
+    font-family: 'Raleway', sans-serif; 
+}
+.headline > h2{
+  font-size: 35px;
+  line-height: 50px;
+}
+.headline > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.headline > input{
+    border: 1px solid black;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif; 
+    width: 300px;
+    border-radius: 2px;
+}
+.headline > button{
+    width: 150px;
+    padding: 10px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-family: 'Raleway', sans-serif; 
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.section1 > img{
+    width: auto;
+    height: 400px;
+}
+/* Bg Curve */
+.bg-curve{
+    width: 100%;
+}
+/* Section 2 styling */
+.section2{
+    background-color: hsl(240, 65%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif; 
+    padding: 20px;
+}
+.section2-headline{
+    width: 600px;
+}
+.section2-headline > h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+.section2-headline > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.arrowlink{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.arrowlink > a{
+    color: hsl(170, 45%, 43%);
+}
+.arrowlink > img{
+    width: auto;
+    height: 25px;
+    margin-left: 5px;
+}
+.testimonial{
+    background-color: #fff;
+    border-radius: 3px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.testimonial > img{
+    margin-bottom: 10px;
+}
+.testimonial > p{
+    line-height: 25px;
+}
+.person-id{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.person-id > img{
+    border-radius: 50%;
+    width: auto;
+    height: 30px;
+}
+.nameing{
+    margin-left: 10px;
+}
+.nameing > h3{
+    font-size: 12px;
+    font-weight: 700;
+}
+.nameing > h4{
+    font-size: 10px;
+    font-weight: 400;
+}
+.section2 > img{
+    width: auto;
+    height: 400px;
+}
+
