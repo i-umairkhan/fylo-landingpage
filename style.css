@@ -13,7 +13,7 @@ body{
 }
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 /* Nav Bar Styling */
 nav{
     display: flex;
@@ -249,4 +249,57 @@ footer a{
 .phone > img ,
 .email > img{
     margin-right: 8px;
+}
+/* Media Quires */
+@media screen and (max-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10vh 120vh 10vh 100vh 50vh 60vh;
+    }
+    nav{
+        padding: 15px;
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        width: auto;
+        height: 25px;
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        width: 170px;
+        font-size: 13px;
+    }
+    .section1{
+        padding: 15px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .headline{
+        width: 320px;
+    }
+    .headline > h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .headline > p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .headline > input{
+    width: 100%;
+    }
+    .headline > button{
+    width: 100%;
+    margin-top: 7px;
+    margin-left: 0px;
+}
+    .section1 > img{
+        width: auto;
+        height: 250px;
+    }
 }
