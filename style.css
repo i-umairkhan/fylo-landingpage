@@ -9,7 +9,7 @@ body{
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 90vh 10vh 100vh 30vh 40vh;
+    grid-template-rows: 10vh 90vh 10vh 100vh 50vh 60vh;
 }
 
 /* Nav Bar Styling */
@@ -17,7 +17,7 @@ nav{
     display: flex;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    padding: 20px;
+    padding: 50px;
 }
 .logo{
     width: auto;
@@ -39,7 +39,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
 }
 .headline{
     width: 550px;
@@ -53,6 +53,7 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 17px;
+    line-height: 25px;
 }
 .headline > input{
     border: 1px solid black;
@@ -88,7 +89,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-family: 'Raleway', sans-serif; 
-    padding: 20px;
+    padding: 50px;
 }
 .section2-headline{
     width: 600px;
@@ -120,7 +121,7 @@ nav{
 }
 .testimonial{
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 5px;
     width: 300px;
     padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -158,4 +159,53 @@ nav{
     width: auto;
     height: 400px;
 }
+/* Section 3 styling */
+.section3{
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+    font-family: 'Raleway', sans-serif; 
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headline-section3{
+    width: 420px;
+}
+.headline-section3 > h2{
+    font-size: 35px;
+}
+.headline-section3 > p{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+}
 
+.input-section > input{
+    border: none;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif; 
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-section > button{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background-color: hsl(224, 100%, 61%);
+    border: none;
+    font-family: 'Raleway', sans-serif; 
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
