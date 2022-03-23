@@ -11,7 +11,9 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 10vh 90vh 10vh 100vh 50vh 60vh;
 }
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 /* Nav Bar Styling */
 nav{
     display: flex;
@@ -208,4 +210,43 @@ nav{
     cursor: pointer;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* Footer styling */
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    font-family:  'Raleway', sans-serif;
+    padding: 50px;
+}
+.footer-links{
+    margin-right: 200px;
+}
+footer > img{
+    margin-bottom: 10px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: #fff;
+    font-family:  'Raleway', sans-serif;
+    text-decoration: none;
+}
+.contact > div,
+.aboutus > div,
+.contactus > div,
+.social > div{
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.phone ,
+.email{
+    display: flex;
+    align-items: center;
+}
+.phone > img ,
+.email > img{
+    margin-right: 8px;
 }
