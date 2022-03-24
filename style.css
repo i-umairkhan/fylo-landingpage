@@ -255,7 +255,7 @@ footer a{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10vh 120vh 10vh 100vh 50vh 60vh;
+        grid-template-rows: 10vh 120vh 4vh 150vh 80vh 100vh;
     }
     nav{
         padding: 15px;
@@ -301,5 +301,72 @@ footer a{
     .section1 > img{
         width: auto;
         height: 250px;
+    }
+    .section2{
+        padding: 15px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section2-headline{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2-headline > h2{
+        font-size: 15px;
+    }
+    .section2-headline > p{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .arrowlink{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .testimonial{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .section2 > img{
+        width: auto;
+        height: 250px;
+    }
+    .section3{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    .headline-section3{
+        width: 300px;
+    }
+    .headline-section3 > h2{
+        font-size: 25px;
+    }
+    .headline-section3 > p{
+        margin-top: 15px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .input-section{
+        width: 300px;
+    }
+    .input-section > input{
+        width: 100%;
+    }
+    .input-section > button{
+        width: 100%;
+    }
+    .footer-links{
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+        background-color: hsl(243, 87%, 12%);
+    }
+    .phone{
+        width: 200px;
     }
 }
